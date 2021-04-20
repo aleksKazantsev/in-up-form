@@ -1,5 +1,6 @@
 # Формы регистрации и авторизации
-[![E-soft](logo/esoft-logo.svg)](https://esoft.tech/) 
+[![E-soft](logo/esoft-logo.svg)](https://esoft.tech/)  
+
 Практическая работа для "Школы программирования - 2021" 
 ___
 ## Задание:

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In/Up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="in-up-form">
+            <form class="in-up-form__in-form" action="#">
+                <fieldset>
+                    <legend><h2>Данные для входа</h2></legend>
+                    <div input-container class="input-modern icon-person">
+                        <input name="login" name-input class="input-modern__input" type="text" autocomplete="off" placeholder=" ">
+                        <label class="input-modern__label" for="login">
+                            <span>Введите логин</span>
+                        </label>
+                    </div>
+                    <div input-container class="input-modern icon-lock">
+                        <input name="password" password-input class="input-modern__input" type="password" autocomplete="off" placeholder=" ">
+                        <label class="input-modern__label" for="password">
+                            <span>Введите пароль</span>
+                        </label>
+                        <span password-eye class="icon-eye"></span>
+                    </div>
+                </fieldset>
+                <button button-submit class="button-modern-light">
+                    <span></span>
+                    Войти
+                </button>
+            </form>
+            <form class="in-up-form__up-form" action="#">
+                <fieldset>
+                    <legend><h2>Данные для регистрации</h2></legend>
+                    <div input-container class="input-modern icon-person">
+                        <input name="login" name-input class="input-modern__input" type="text" autocomplete="off" placeholder=" ">
+                        <label class="input-modern__label" for="login">
+                            <span>Придумайте никнейм</span>
+                        </label>
+                    </div>
+                    <div input-container class="input-modern icon-lock">
+                        <input name="password" password-input class="input-modern__input" type="password" autocomplete="off" placeholder=" ">
+                        <label name="password" class="input-modern__label" for="password1">
+                            <span>Придумайте пароль</span>
+                        </label>
+                        <span password-eye class="icon-eye"></span>
+                    </div>
+                    <div input-container class="input-modern icon-lock">
+                        <input password2-input class="input-modern__input" type="password" id="password2" autocomplete="off" placeholder=" ">
+                        <label class="input-modern__label" for="password2">
+                            <span>Повторите пароль</span>
+                        </label>
+                        <span password-eye class="icon-eye"></span>
+                    </div>
+                    <div input-container class="input-modern icon-envelope">
+                        <input name="email" email-input class="input-modern__input" type="text" autocomplete="off" inputmode="email" placeholder=" ">
+                        <label class="input-modern__label" for="email">
+                            <span>Введите email</span>
+                        </label>
+                    </div>
+                </fieldset>
+                <button button-submit class="button-modern-light">
+                    <span></span>
+                    Зарегестрироваться
+                </button>
+            </form>
+            <div class="in-up-form__overlay">
+                <div class="in-up-form__overlay-container">
+                    <section class="in-up-form__item">
+                        <h2>Прошли регистрацию?</h2>
+                        <p>Чтобы получить расширенный доступ к ресурсу нажмите на кнопку "Войти" и пройдите процедуру идентификации</p>
+                        <button class="button-modern" id="signIn">Войти</button>
+                    </section>
+                    <section class="in-up-form__item">
+                        <h2>Еще не зарегестрированы?</h2>
+                        <p>Чтобы пройти регистрацию, нажмите на кнопку "Зарегестрироваться" и введите свои личные данные</p>
+                        <button class="button-modern" id="signUp">Зарегестрироваться</button>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="container-transform.js"></script>
+<script src="form-valid.js"></script>
+</html>

@@ -39,26 +39,26 @@ logo      | Папка с спользуемыми логотипами
     1.1 В разметке используются элементы семантики такие как main и section в принятом для данных элеметов контексте.  
     1.2 Используются новые семантические подходы в оформлении форм (теги fieldset и legend)  
 
-2) CSS (https://www.w3.org/Style/CSS/):
-    2.1) Практические аспекты приминения различных селекторов (селекторы id(#), классов(.) универсальный селектор(*), селекторы элементов и контекстные селекторы, соседний селектор(+ (сразу за указанным элементом))
-    2.2) Работа с селекторами псевдоклассов (:active, :focus, :last-child, :hover)
-    2.3) Использование псевдоэлементов ::before и ::after
-    2.4) Flex и Grid верстка
-    2.5) Создание адаптивного интерфейса, приминение селекторов @media-запросов
-    2.6) Анимация элементов HTML-страницы (z-index, transform, transition, opacity)
-    2.7) Работа с тенями, градиентной заливкой и вставка изображений
-    2.8) Использование box-sizing и overflow
+2) CSS (https://www.w3.org/Style/CSS/):  
+    2.1) Практические аспекты приминения различных селекторов (селекторы id(#), классов(.) универсальный селектор(*), селекторы элементов и контекстные селекторы, соседний селектор(+ (сразу за указанным элементом))  
+    2.2) Работа с селекторами псевдоклассов (:active, :focus, :last-child, :hover)  
+    2.3) Использование псевдоэлементов ::before и ::after  
+    2.4) Flex и Grid верстка  
+    2.5) Создание адаптивного интерфейса, приминение селекторов @media-запросов  
+    2.6) Анимация элементов HTML-страницы (z-index, transform, transition, opacity)  
+    2.7) Работа с тенями, градиентной заливкой и вставка изображений  
+    2.8) Использование box-sizing и overflow  
 
-3) Java Script (https://www.ecma-international.org/publications-and-standards/standards/ecma-262/):
-    3.1) Поиск элементов в DOM дереве (querySelector, querySelectorAll, getElementById, getElementsByTagName)
-    3.2) Создание, добавление в коллекцию и удаление дочерних элементов (createElement, appendChild, removeChild)
-    3.3) Работа с классами элементов, их поиск, удаление и добавление (classList.add, classList.remove, classList.contains)
-    3.4) Обход эелементов коллеций (for (let * of ***))
-    3.5) Работа с событиями (события: input, focusout, click, submit, DOMContentLoaded). Назначения слушателя событий addEventListener. Вызов события dispatchEvent. Создание события new Event
-    3.6) Приминение конструкций языка (if else и for, оператор break)
-    3.7) Работа со структурами данных (массивы, FormData, JSON)
-    3.8) Работа с консолью браузера
-    3.9) Использование функций, функциональная декомпозиция, синтаксис стрелочных функций
+3) Java Script (https://www.ecma-international.org/publications-and-standards/standards/ecma-262/):  
+    3.1) Поиск элементов в DOM дереве (querySelector, querySelectorAll, getElementById, getElementsByTagName)  
+    3.2) Создание, добавление в коллекцию и удаление дочерних элементов (createElement, appendChild, removeChild)  
+    3.3) Работа с классами элементов, их поиск, удаление и добавление (classList.add, classList.remove, classList.contains)  
+    3.4) Обход эелементов коллеций (for (let * of ***))  
+    3.5) Работа с событиями (события: input, focusout, click, submit, DOMContentLoaded). Назначения слушателя событий addEventListener. Вызов события dispatchEvent. Создание события new Event  
+    3.6) Приминение конструкций языка (if else и for, оператор break)  
+    3.7) Работа со структурами данных (массивы, FormData, JSON)  
+    3.8) Работа с консолью браузера  
+    3.9) Использование функций, функциональная декомпозиция, синтаксис стрелочных функций  
 
 ___
 ## Данная работа охватывает в себя материалы уроков:
